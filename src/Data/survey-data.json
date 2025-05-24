@@ -1,0 +1,33 @@
+{
+          
+  "series": [{
+    "name": "Recover",
+    "data": [31, 40, 28, 51, 42, 109, 100]
+  }, {
+    "name": "Effected",
+    "data": [11, 32, 45, 32, 34, 52, 41]
+  }],
+  "options": {
+    "chart": {
+      "height": 350,
+      "type": "area"
+    },
+    "dataLabels": {
+      "enabled": false
+    },
+    "stroke": {
+      "curve": "smooth"
+    },
+    "xaxis": {
+      "type": "datetime",
+      "categories": ["2018-jan-19", "2018-Feb-20", "2018-mar-21", "2018-apr-22", "2018-may-23", "2018-jun-24", "2018-jul-25"]
+    },
+    "tooltip": {
+      "x": {
+        "format":"dd/MM/yy"
+      }
+    }
+  }
+}
+
+
